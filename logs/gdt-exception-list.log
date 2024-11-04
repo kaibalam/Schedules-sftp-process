@@ -1,0 +1,42 @@
+2023-05-12 02:47:35,539 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicationTests using Java 1.8.0_362 on GT-00000312 with PID 25924 (started by elcvari in C:\Users\ELCVARI\Documents\Claro\Desarrollos-Claro\gdt.le.claro.job\gdt.le.job)
+2023-05-12 02:47:35,551 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.11, Spring v5.3.27
+2023-05-12 02:47:35,555 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-12 02:47:37,954 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-12 02:47:37,959 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-05-12 02:47:38,030 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 0 JDBC repository interfaces.
+2023-05-12 02:47:38,058 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-12 02:47:38,065 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-12 02:47:38,114 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
+2023-05-12 02:47:40,514 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-12 02:47:40,711 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-12 02:47:41,635 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-12 02:47:45,581 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-12 02:47:48,682 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-12 02:47:48,761 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2023-05-12 02:48:06,196 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-12 02:48:06,290 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-12 02:48:12,767 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicationTests in 38.641 seconds (JVM running for 41.395)
+2023-05-12 02:48:14,276 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-12 02:48:14,289 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-12 02:48:15,255 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-12 16:48:15,789 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicationTests using Java 1.8.0_362 on GT-00000312 with PID 20132 (started by elcvari in C:\Users\ELCVARI\Documents\Claro\Desarrollos-Claro\gdt.le.claro.job\gdt.le.job)
+2023-05-12 16:48:15,792 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.11, Spring v5.3.27
+2023-05-12 16:48:15,794 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-12 16:48:17,637 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-12 16:48:17,642 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-05-12 16:48:17,700 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 47 ms. Found 0 JDBC repository interfaces.
+2023-05-12 16:48:17,722 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-12 16:48:17,727 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-12 16:48:17,757 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2023-05-12 16:48:19,546 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-12 16:48:19,712 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-12 16:48:20,289 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-12 16:48:22,400 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-12 16:48:24,568 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-12 16:48:24,623 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2023-05-12 16:48:35,820 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-12 16:48:35,844 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-12 16:48:39,630 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicationTests in 24.846 seconds (JVM running for 28.977)
+2023-05-12 16:48:39,979 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-12 16:48:39,986 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-12 16:48:40,918 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

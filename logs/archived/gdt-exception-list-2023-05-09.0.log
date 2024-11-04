@@ -1,0 +1,293 @@
+2023-05-09 14:13:26,440 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 1.8.0_191 on ROM-DES-WBS-40 with PID 9960 (C:\Users\ricardo.valenzuela\Documents\Desarrollos\PROC_LIST\gdt.le.job\gdt.le.job\target\classes started by ricardo.valenzuela in C:\Users\ricardo.valenzuela\Documents\Desarrollos\PROC_LIST\gdt.le.job\gdt.le.job)
+2023-05-09 14:13:26,443 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.11, Spring v5.3.27
+2023-05-09 14:13:26,444 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-05-09 14:13:26,541 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\ricardo.valenzuela\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.5.0.0\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/ricardo.valenzuela/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.5.0.0/oraclepki.jar
+2023-05-09 14:13:26,542 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\ricardo.valenzuela\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar referenced one or more files that do not exist: file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-api.jar,file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/activation.jar,file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jsr173_1.0_api.jar,file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb1-impl.jar
+2023-05-09 14:13:26,542 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-09 14:13:26,542 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-09 14:13:27,949 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-09 14:13:27,953 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-05-09 14:13:27,999 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34 ms. Found 0 JDBC repository interfaces.
+2023-05-09 14:13:28,013 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-09 14:13:28,015 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09 14:13:28,036 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2023-05-09 14:13:29,437 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-05-09 14:13:29,456 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-05-09 14:13:29,457 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-05-09 14:13:29,458 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-09 14:13:29,679 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-05-09 14:13:29,680 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3137 ms
+2023-05-09 14:13:30,286 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09 14:13:30,387 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-09 14:13:30,773 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-09 14:13:31,060 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-05-09 14:13:32,092 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-05-09 14:13:32,146 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2023-05-09 14:13:33,439 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09 14:13:33,467 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 14:13:35,003 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-05-09 14:13:35,025 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8082"]
+2023-05-09 14:13:35,054 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2023-05-09 14:13:35,080 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 9.64 seconds (JVM running for 11.343)
+2023-05-09 14:14:00,001 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] inicio de tarea de lista de excepciones
+2023-05-09 14:16:38,175 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicationTests using Java 1.8.0_191 on ROM-DES-WBS-40 with PID 13556 (started by ricardo.valenzuela in C:\Users\ricardo.valenzuela\Documents\Desarrollos\PROC_LIST\gdt.le.job\gdt.le.job)
+2023-05-09 14:16:38,179 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.11, Spring v5.3.27
+2023-05-09 14:16:38,180 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-09 14:16:39,573 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-09 14:16:39,578 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-05-09 14:16:39,626 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
+2023-05-09 14:16:39,653 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-09 14:16:39,656 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09 14:16:39,691 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 23 ms. Found 0 JPA repository interfaces.
+2023-05-09 14:16:41,196 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09 14:16:41,354 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-09 14:16:41,846 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-09 14:16:42,253 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-09 14:16:43,177 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-09 14:16:43,218 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2023-05-09 14:16:44,433 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09 14:16:44,460 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 14:16:46,777 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicationTests in 9.507 seconds (JVM running for 11.727)
+2023-05-09 14:16:46,985 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 14:16:46,990 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-09 14:16:47,007 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-09 15:43:34,389 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 1.8.0_191 on ROM-DES-WBS-40 with PID 1948 (C:\Users\ricardo.valenzuela\Documents\Desarrollos\PROC_LIST\gdt.le.job\gdt.le.job\target\classes started by ricardo.valenzuela in C:\Users\ricardo.valenzuela\Documents\Desarrollos\PROC_LIST\gdt.le.job\gdt.le.job)
+2023-05-09 15:43:34,392 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.11, Spring v5.3.27
+2023-05-09 15:43:34,393 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-05-09 15:43:34,523 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\ricardo.valenzuela\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.5.0.0\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/ricardo.valenzuela/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.5.0.0/oraclepki.jar
+2023-05-09 15:43:34,523 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\ricardo.valenzuela\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar referenced one or more files that do not exist: file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-api.jar,file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/activation.jar,file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jsr173_1.0_api.jar,file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb1-impl.jar
+2023-05-09 15:43:34,524 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-09 15:43:34,524 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-09 15:43:36,065 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-09 15:43:36,070 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-05-09 15:43:36,114 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+2023-05-09 15:43:36,130 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-09 15:43:36,132 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09 15:43:36,154 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2023-05-09 15:43:37,744 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-05-09 15:43:37,768 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-05-09 15:43:37,769 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-05-09 15:43:37,770 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-09 15:43:38,055 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-05-09 15:43:38,055 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3529 ms
+2023-05-09 15:43:38,778 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09 15:43:38,920 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-09 15:43:39,257 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-09 15:43:39,456 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-05-09 15:43:40,351 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-05-09 15:43:40,391 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2023-05-09 15:43:41,509 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09 15:43:41,539 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 15:43:43,113 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-05-09 15:43:43,144 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8082"]
+2023-05-09 15:43:43,280 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2023-05-09 15:43:43,307 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 10.174 seconds (JVM running for 11.816)
+2023-05-09 15:44:11,076 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 1.8.0_191 on ROM-DES-WBS-40 with PID 7240 (C:\Users\ricardo.valenzuela\Documents\Desarrollos\PROC_LIST\gdt.le.job\gdt.le.job\target\classes started by ricardo.valenzuela in C:\Users\ricardo.valenzuela\Documents\Desarrollos\PROC_LIST\gdt.le.job\gdt.le.job)
+2023-05-09 15:44:11,079 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.11, Spring v5.3.27
+2023-05-09 15:44:11,081 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-05-09 15:44:11,203 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\ricardo.valenzuela\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.5.0.0\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/ricardo.valenzuela/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.5.0.0/oraclepki.jar
+2023-05-09 15:44:11,203 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\ricardo.valenzuela\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar referenced one or more files that do not exist: file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-api.jar,file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/activation.jar,file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jsr173_1.0_api.jar,file:/C:/Users/ricardo.valenzuela/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb1-impl.jar
+2023-05-09 15:44:11,204 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-09 15:44:11,204 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-09 15:44:12,742 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-09 15:44:12,747 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-05-09 15:44:12,783 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2023-05-09 15:44:12,799 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-09 15:44:12,801 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09 15:44:12,823 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2023-05-09 15:44:14,369 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-05-09 15:44:14,387 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-05-09 15:44:14,388 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-05-09 15:44:14,389 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-09 15:44:14,642 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-05-09 15:44:14,643 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3437 ms
+2023-05-09 15:44:15,308 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09 15:44:15,420 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-09 15:44:15,710 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-09 15:44:15,899 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-05-09 15:44:16,782 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-05-09 15:44:16,818 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2023-05-09 15:44:18,094 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09 15:44:18,119 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 15:44:19,543 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-05-09 15:44:19,570 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8082"]
+2023-05-09 15:44:19,603 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2023-05-09 15:44:19,626 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 9.767 seconds (JVM running for 10.937)
+2023-05-09 15:46:00,001 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] inicio de tarea de lista de excepciones
+2023-05-09 15:46:10,514 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] datos de conexion sftp cargados
+2023-05-09 15:46:10,517 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] Ruta CLARO a depositar archivos descargados: D:\SGTM
+2023-05-09 15:46:10,522 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] fecha 20230509
+2023-05-09 15:46:10,523 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] direccion de sftp a buscar archivos para lista de excepciones/GENERAL/20230509
+2023-05-09 15:46:11,904 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] Created session
+2023-05-09 15:46:14,237 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] Started session!
+2023-05-09 15:46:14,683 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] channel openned
+2023-05-09 15:46:14,919 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] Move to path directory: /GENERAL/20230509
+2023-05-09 15:46:15,374 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] files list to read on remote directory
+2023-05-09 15:46:15,382 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] starts readen filename LE_202305090012.txt.gz 
+2023-05-09 15:46:15,383 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] if starts with LE and finish with .gz download process begin
+2023-05-09 15:46:15,901 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] Downloaded file name: -rw-r--r--    1 1001     1001          490 May  9 06:12 LE_202305090012.txt.gz
+2023-05-09 15:46:15,903 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] new file name LE_202305090012.txt
+2023-05-09 15:46:15,905 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] starts readen filename LE_202305090612.txt.gz 
+2023-05-09 15:46:15,907 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] if starts with LE and finish with .gz download process begin
+2023-05-09 15:46:16,481 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] Downloaded file name: -rw-r--r--    1 1001     1001          490 May  9 12:12 LE_202305090612.txt.gz
+2023-05-09 15:46:16,483 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] new file name LE_202305090612.txt
+2023-05-09 15:46:16,484 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] starts readen filename LE_202305091212.txt.gz 
+2023-05-09 15:46:16,485 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] if starts with LE and finish with .gz download process begin
+2023-05-09 15:46:17,371 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] Downloaded file name: -rw-r--r--    1 1001     1001          506 May  9 18:12 LE_202305091212.txt.gz
+2023-05-09 15:46:17,372 INFO com.claro.gdt.le.job.processes.SFTPconnectionsProcess [scheduling-1] new file name LE_202305091212.txt
+2023-05-09 15:46:24,803 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] files [LE_202305090012.txt.gz, LE_202305090612.txt.gz, LE_202305091212.txt.gz]
+2023-05-09 15:46:28,803 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] Existe como ya procesado? 1
+2023-05-09 15:46:35,302 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] Ya existe eliminarlo de la lista LE_202305090012.txt.gz
+2023-05-09 15:46:36,121 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] Eliminar LE_202305090012.txt.gz
+2023-05-09 15:46:36,278 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] remove method file name: D:\SGTM/LE_202305090012.txt.gz
+2023-05-09 15:46:36,282 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] borrado exitoso status: true
+2023-05-09 15:46:36,455 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] deleted= true
+2023-05-09 15:46:36,808 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] remove List: 1
+2023-05-09 15:46:44,155 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] Existe como ya procesado? 0
+2023-05-09 15:46:46,084 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] Existe como ya procesado? 1
+2023-05-09 15:46:47,027 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] Ya existe eliminarlo de la lista LE_202305091212.txt.gz
+2023-05-09 15:46:47,477 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] Eliminar LE_202305091212.txt.gz
+2023-05-09 15:46:47,704 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] remove method file name: D:\SGTM/LE_202305091212.txt.gz
+2023-05-09 15:46:47,708 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] borrado exitoso status: true
+2023-05-09 15:46:47,932 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] deleted= true
+2023-05-09 15:46:48,542 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] remove List: 2
+2023-05-09 15:46:51,631 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] archivo descargado iniciando processo de lectura
+2023-05-09 15:46:52,325 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] local directory loaded
+2023-05-09 15:47:09,694 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] files listed
+2023-05-09 15:47:10,555 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] starting files iteration LE_202305081212.txt.gz
+2023-05-09 15:47:12,101 INFO com.claro.gdt.le.job.utils.UnzipFile [scheduling-1] unziping process starts : D:\SGTM\LE_202305081212.txt.gz
+2023-05-09 15:47:18,348 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] file unziped gz
+2023-05-09 15:47:20,167 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] before enter ProcessLE
+2023-05-09 15:47:20,988 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Starts readh files
+2023-05-09 15:47:28,584 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] file paht es D:\\SGTM/LE_202305081212.txt
+2023-05-09 15:47:28,903 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] reader inicializado java.io.FileReader@73b9711a
+2023-05-09 15:47:29,386 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] iniciando buffer reader
+2023-05-09 15:47:30,062 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 12
+2023-05-09 15:47:38,296 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] cantidad lineas a procesar 12
+2023-05-09 15:47:39,350 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35503511786636|60095868|712012022676567|INLISEXC03|Caso bloqueo Perú|1923||206710642
+2023-05-09 15:47:40,720 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:47:52,650 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:47:53,314 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35707910139070|83750549|712012032308472|INLISEXC01|Bloqueo Perú|1923||103270560
+2023-05-09 15:47:55,557 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:48:07,927 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:48:08,766 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35863310576465|89130900|712012032700213|INLISEXC02|bloqueo Argentina|1923||900350253
+2023-05-09 15:48:09,727 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:48:12,603 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:48:13,338 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35657010960178|83458452|712012022629097|INLISEXC03|Dispositivo homologado bloqueado AT&T USA 22-Mar-22|1923||113480646
+2023-05-09 15:48:17,298 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:48:20,135 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:48:20,852 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35503511786636|71110000|712039999999999|INLISEXC04|Sutel-Prueba-Claro|1921||203950395
+2023-05-09 15:48:21,718 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:49:08,240 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:49:09,618 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] estado viene vacio ignorar
+2023-05-09 15:49:44,037 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35498410095901|999999999|712044343222215|INLISEXC02|sutel prueba|1924||123
+2023-05-09 15:49:45,000 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:49:47,372 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:49:48,001 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35055639110068|87299115|712012032823104|INLISEXC01|Bloqueo Perú|1923||110000720
+2023-05-09 15:49:48,790 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:49:51,283 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:49:51,926 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35894210191195|89490782|712012022667365|INLISEXC03|Bloqueo Perú 16 Enero|1923||303040728
+2023-05-09 15:49:52,744 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:49:59,994 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:50:00,612 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35735409125422|88172082|712012009472831|INLISEXC04|Caso bloqueo Perú|1923||113010652
+2023-05-09 15:50:01,408 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:50:05,167 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:50:05,926 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35863310576465|84651444|712012033252933|INLISEXC03|Bloqueo Argentina|1923||900350253
+2023-05-09 15:50:07,237 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:50:10,071 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:50:10,783 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35498410059334|85957592|712030197510662|INLISEXC01|EXCEPCION 1 PRUEBA|1921|0|113820709
+2023-05-09 15:50:11,801 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:50:26,842 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] is valid line params : {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=false, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:50:30,099 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Operador a validar = 1921 : Es Claro continua
+2023-05-09 15:50:38,997 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] estado viene poblado continua
+2023-05-09 15:50:49,381 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Consultar excepciones
+2023-05-09 15:50:53,216 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Imei calculado: 354984100593349
+2023-05-09 15:51:17,294 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Consulta a excepciones ExceptionDataRequest{status=false, datos=DatosQueryExceptions{imei1='', imei2='', imei3='', imsi1='', imsi2='', imsi3='', fecha1='', fecha2='', fecha3='', numero1='null', numero2='null', numero3='null', cantidad=0}, identificacion=''}
+2023-05-09 15:52:27,199 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m38s837ms42µs62ns).
+2023-05-09 15:52:28,460 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Consulta historial
+2023-05-09 15:53:23,318 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] El imei posee historial validar ultimos movimientos y ultimas imsis
+2023-05-09 15:55:13,057 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] addException response status 200
+2023-05-09 15:55:13,061 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Entity {"result":{"mensaje":"Agregado en lista de excepciones exitoso, su id de archivo es:null","onbase":"","resultado":3},"status":true}
+2023-05-09 15:55:48,499 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s743ms747µs652ns).
+2023-05-09 15:56:38,987 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s487ms994µs488ns).
+2023-05-09 15:56:39,002 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] agregado a lista de excepiones con HI, status true
+2023-05-09 15:56:43,563 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Guardado historial 35498410059334
+2023-05-09 15:57:04,533 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Fin de proceso de lectura de linea ===========================
+2023-05-09 15:57:25,233 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s246ms600µs323ns).
+2023-05-09 15:57:25,800 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35498410059334|70020011|712030185468439|INLISEXC01|EXCEPCION 2 PRUEBA|1921|0|113820709
+2023-05-09 15:57:27,360 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 15:57:40,977 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] is valid line params : {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=false, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 15:57:41,527 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Operador a validar = 1921 : Es Claro continua
+2023-05-09 15:57:42,138 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] estado viene poblado continua
+2023-05-09 15:57:56,744 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Consultar excepciones
+2023-05-09 15:57:57,814 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Imei calculado: 354984100593349
+2023-05-09 15:58:08,666 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Consulta a excepciones ExceptionDataRequest{status=false, datos=DatosQueryExceptions{imei1='354984100593349', imei2='null', imei3='null', imsi1='712030197510662', imsi2='null', imsi3='null', fecha1='2023-05-09 15:55:12', fecha2='null', fecha3='null', numero1='50685957592', numero2='null', numero3='null', cantidad=1}, identificacion='113820709'}
+2023-05-09 15:58:16,035 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Consulta historial
+2023-05-09 15:58:23,149 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] El imei posee historial validar ultimos movimientos y ultimas imsis
+2023-05-09 15:59:18,049 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] addException response status 200
+2023-05-09 15:59:18,052 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Entity {"result":{"mensaje":"Agregado en lista de excepciones exitoso, su id de archivo es:null","onbase":"","resultado":3},"status":true}
+2023-05-09 15:59:20,577 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] agregado a lista de excepiones con HI, status true
+2023-05-09 15:59:22,293 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Guardado historial 35498410059334
+2023-05-09 15:59:25,719 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Fin de proceso de lectura de linea ===========================
+2023-05-09 15:59:33,564 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] END
+2023-05-09 15:59:47,080 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Es la última linea, salir
+2023-05-09 15:59:54,180 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] remove method file name: D:\SGTM/LE_202305081212.txt.gz
+2023-05-09 15:59:54,183 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] borrado exitoso status: true
+2023-05-09 15:59:54,996 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] remove method file name: D:\SGTM/LE_202305081212.txt
+2023-05-09 15:59:55,000 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] borrado exitoso status: true
+2023-05-09 16:00:12,286 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] starting files iteration LE_202305090612.txt.gz
+2023-05-09 16:00:16,933 INFO com.claro.gdt.le.job.utils.UnzipFile [scheduling-1] unziping process starts : D:\SGTM\LE_202305090612.txt.gz
+2023-05-09 16:00:17,331 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] file unziped gz
+2023-05-09 16:00:18,735 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] before enter ProcessLE
+2023-05-09 16:00:22,839 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Starts readh files
+2023-05-09 16:00:24,270 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] file paht es D:\\SGTM/LE_202305090612.txt
+2023-05-09 16:00:24,271 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] reader inicializado java.io.FileReader@25ef552d
+2023-05-09 16:00:24,272 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] iniciando buffer reader
+2023-05-09 16:00:24,272 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 12
+2023-05-09 16:00:24,273 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] cantidad lineas a procesar 12
+2023-05-09 16:00:24,273 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35503511786636|60095868|712012022676567|INLISEXC03|Caso bloqueo Perú|1923||206710642
+2023-05-09 16:00:24,273 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,290 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,290 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35707910139070|83750549|712012032308472|INLISEXC01|Bloqueo Perú|1923||103270560
+2023-05-09 16:00:24,291 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,291 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,292 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35863310576465|89130900|712012032700213|INLISEXC02|bloqueo Argentina|1923||900350253
+2023-05-09 16:00:24,292 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,292 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,293 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35657010960178|83458452|712012022629097|INLISEXC03|Dispositivo homologado bloqueado AT&T USA 22-Mar-22|1923||113480646
+2023-05-09 16:00:24,293 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,294 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,294 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35503511786636|71110000|712039999999999|INLISEXC04|Sutel-Prueba-Claro|1921||203950395
+2023-05-09 16:00:24,294 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,295 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,295 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] estado viene vacio ignorar
+2023-05-09 16:00:24,310 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35498410095901|999999999|712044343222215|INLISEXC02|sutel prueba|1924||123
+2023-05-09 16:00:24,310 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,310 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,311 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35055639110068|87299115|712012032823104|INLISEXC01|Bloqueo Perú|1923||110000720
+2023-05-09 16:00:24,311 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,312 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,312 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35894210191195|89490782|712012022667365|INLISEXC03|Bloqueo Perú 16 Enero|1923||303040728
+2023-05-09 16:00:24,313 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,313 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,313 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35735409125422|88172082|712012009472831|INLISEXC04|Caso bloqueo Perú|1923||113010652
+2023-05-09 16:00:24,314 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,314 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,315 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35863310576465|84651444|712012033252933|INLISEXC03|Bloqueo Argentina|1923||900350253
+2023-05-09 16:00:24,315 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,316 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,316 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35498410059334|85957592|712030197510662|INLISEXC01|EXCEPCION 1 PRUEBA|1921||113820709
+2023-05-09 16:00:24,316 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,316 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,316 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] estado viene vacio ignorar
+2023-05-09 16:00:24,329 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] 35498410059334|70020011|712030185468439|INLISEXC01|EXCEPCION 2 PRUEBA|1921||113820709
+2023-05-09 16:00:24,330 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] =========================== Inicio de proceso de lectura de linea ===========================
+2023-05-09 16:00:24,330 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Validación, parametro errado, no operar ---> ignorar {Invalid OPERATOR=false, Invalid OBSERVATIONS=false, Invalid USER_ID=false, Invalid MSISDN=false, Invalid STATUS=true, Invalid IMEI=false, Invalid IMSI=false, Invalid CAUSE_EXCEPTION=false}
+2023-05-09 16:00:24,331 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] estado viene vacio ignorar
+2023-05-09 16:00:24,340 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] END
+2023-05-09 16:00:24,340 INFO com.claro.gdt.le.job.services.imp.IDictionaryDAOImp [scheduling-1] Es la última linea, salir
+2023-05-09 16:00:24,341 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] remove method file name: D:\SGTM/LE_202305090612.txt.gz
+2023-05-09 16:00:24,342 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] borrado exitoso status: true
+2023-05-09 16:00:24,342 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] remove method file name: D:\SGTM/LE_202305090612.txt
+2023-05-09 16:00:24,343 INFO com.claro.gdt.le.job.processes.FileTasksProcess [scheduling-1] borrado exitoso status: true
+2023-05-09 16:00:24,344 INFO com.claro.gdt.le.job.controllers.jobs.ExceptionListJob [scheduling-1] Fin del proceso
